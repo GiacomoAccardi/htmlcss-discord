@@ -155,7 +155,6 @@ li{
 
 .row-special{
     padding: 10px 0 10px 0;
-    background-color: rgb(94, 255, 255);
 }
 
 .col-25{
@@ -198,8 +197,6 @@ li{
 }
 
 .content-foot{
-    background-color: pink;
-    border: 1px dashed black;
     padding: 5px 0;
 }
 
@@ -281,4 +278,8 @@ button{
     height: 100%;
     width: calc(100% / 3);
     background-color: red;
+}
+
+hr{
+    border-color:#7289DA
 }
