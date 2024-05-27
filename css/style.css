@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*LAYOUT STYLES*/
+
+.container-sm{
+    width:800px;
+    margin:0 auto;
+}
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-special{
+    padding: 10px 0 10px 0;
+    background-color: rgb(94, 255, 255);
+}
+
+.col-25{
+    width: 25%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-75{
+    width: 75%;
+    height: 300px;
+    background-color: rgb(0, 162, 255);
+}
+
+.col-100{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 111, 243);
+}
+
+.col-100large{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+}
+
+.content{
+    background-color: orange;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.row-foot{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm{
+    background-color: aqua;
+    border: 2px dashed white;
+    height: 300px;
+    width: calc(100% / 6);
+}
+
+.col-smx2{
+    background-color: rgb(252, 140, 159);
+    border: 2px dashed rgb(0, 0, 0);
+    height: 300px;
+    width: calc(100% / 6 *2);
+}
+
+
+.ta-center{
+    text-align: center;
+}
+
+.ta-right{
+    text-align: right;
+}
+
+.p30{
+    padding: 30px;
+}
+
+.pfoot{
+    padding:10px 30px 45px 30px;
+}
+
+.content-foot{
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 5px 0;
+}
+
+.p-special{
+    padding: 25px 0;
+    margin: 0 30px;
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*STYLING*/
+
+.bg-azure{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.bg-blu{
+    background-color: blue;
+    padding: 10px;
+}
+
+.border{
+    border: 1px dashed black;
+}
+
+.pink{
+    background-color: pink;
+    height: 300px;
+}
+
+.bg-grey{
+    background-color: lightgray;
+}
+
+.dark-bg{
+    background-color: rgb(27, 31, 37);
+}
