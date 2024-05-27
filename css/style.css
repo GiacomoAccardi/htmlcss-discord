@@ -103,6 +103,39 @@ body{
     padding: 24px;
 }
 
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.foot-m-conf{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.foot-contentbox{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.flag{
+    width: 30px;
+    height: 15px;
+}
+
+.inline{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
 /*LAYOUT STYLES*/
 
 .container-sm{
@@ -153,16 +186,10 @@ body{
 }
 
 .col-sm{
-    background-color: aqua;
-    border: 2px dashed white;
-    height: 300px;
     width: calc(100% / 6);
 }
 
 .col-smx2{
-    background-color: rgb(252, 140, 159);
-    border: 2px dashed rgb(0, 0, 0);
-    height: 300px;
     width: calc(100% / 6 *2);
 }
 
@@ -200,7 +227,7 @@ body{
 }
 
 .dark-bg{
-    background-color: rgb(27, 31, 37);
+    background-color: #23272A;
 }
 
 .font-white{
@@ -234,3 +261,24 @@ button{
     background-size:cover;
 }
 
+.blu-txt{
+    color:#7289DA;
+}
+
+.green-flag{
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: green;
+}
+
+.white-flag{
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: white;
+}
+
+.red-flag{
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: red;
+}
