@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: arial, sans-serif;
+}
+
 /*LAYOUT STYLES*/
 
 .container-sm{
@@ -34,6 +38,14 @@
     width: 50%;
 }
 
+.m5px{
+    margin-top: 5px;
+}
+
+.m10px{
+    margin-top: 10px;
+}
+
 .col-75{
     width: 75%;
     height: 300px;
@@ -53,9 +65,12 @@
 }
 
 .content{
-    background-color: orange;
-    border: 1px dashed black;
     padding: 5px;
+}
+
+.around{
+    display: flex;
+    justify-content: space-around;
 }
 
 .row-foot{
@@ -116,7 +131,7 @@
 /*STYLING*/
 
 .bg-azure{
-    background-color: lightblue;
+    background-color: #255EE9;
     padding: 10px;
 }
 
@@ -140,4 +155,14 @@
 
 .dark-bg{
     background-color: rgb(27, 31, 37);
+}
+
+.font-white{
+    color: white;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none
 }
