@@ -72,6 +72,18 @@ body{
     padding-left: 260px;
 }
 
+.item1-config{
+    width: 450px;
+    height: 300px;
+    margin-top: -25px;
+}
+
+.item2-config{
+    width: 450px;
+    height: 300px;
+    margin-top: -25px;
+    margin-left: -250px ;
+}
 
 
 /*LAYOUT STYLES*/
@@ -171,17 +183,8 @@ body{
     padding: 10px;
 }
 
-.border{
-    border: 1px dashed black;
-}
-
-.pink{
-    background-color: pink;
-    height: 300px;
-}
-
 .bg-grey{
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 .dark-bg{
@@ -208,14 +211,5 @@ button{
     background-color: #23272A;
 }
 
-.bg-itm1{
-    background-image: url(../img/item1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.item1-config{
-    width: 450px;
-    height: 300px;
-    margin-top: -25px;
-}
+
