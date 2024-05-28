@@ -68,7 +68,7 @@ body{
 }
 
 .p-lay2{
-    padding: 70px 80px 120px 80px;
+    padding: 70px 80px 80px 80px;
 }
 
 .p-special{
@@ -282,4 +282,16 @@ button{
 
 hr{
     border-color:#7289DA
+}
+
+.wave-texture{
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    filter: opacity(4%);
+}
+
+.rotate{
+    rotate: 180deg;
 }
